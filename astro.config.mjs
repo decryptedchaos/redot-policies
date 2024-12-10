@@ -11,7 +11,7 @@ export default defineConfig({
       src: './src/assets/redotlogo.svg'
     },
     social: {
-      github: 'https://github.com/louisescher/starlight-ion-theme'
+      //github: 'https://github.com/louisescher/starlight-ion-theme'
     },
     sidebar: [{
       label: '[home] Home',

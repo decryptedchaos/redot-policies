@@ -5,7 +5,7 @@ description: A guide in my new Starlight docs site.
 
 ## Code style
 
-When contributing to Godot's source code, you will be expected to follow the
+When contributing to Redot's source code, you will be expected to follow the
 style guidelines outlined below. Some of them are checked via the Continuous
 Integration process and reviewers will ask you to fix potential issues, so
 best setup your system as outlined below to ensure all your commits follow the
@@ -33,11 +33,9 @@ fine. If you plan to contribute regularly, however, we strongly advise that you
 set up clang-format locally to check and automatically fix all your commits.
 
 
-
-
 ## Using clang-format locally
 
-You need to use **clang-format 17** to be compatible with Godot's format. Later versions might
+You need to use **clang-format 17** to be compatible with Redot's format. Later versions might
 be suitable, but previous versions may not support all used options, or format
-some things differently, leading to style issues in pull requests.
+some things differently, leading to style issues in pull requests. (See [Clang Format](git/clang-format))
 
