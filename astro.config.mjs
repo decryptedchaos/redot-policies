@@ -3,8 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://louisescher.github.io',
-  base: '/',
+  site: 'https://decryptedchaos.github.io',
+  base: '/redot-policies',
   integrations: [starlight({
     title: 'Developer Handbook',
     logo: {
