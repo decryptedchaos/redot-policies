@@ -1,0 +1,88 @@
+---
+title: "Pre-Commit"
+description: A guide in my new Starlight docs site.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+## Pre-commit hook
+
+For ease of use, we provide hooks for Git with the [pre-commit](https://pre-commit.com/)
+Python framework that will run clang-format automatically on all your commits with the
+correct version of clang-format.
+
+To set up:
+
+<Tabs syncKey="pkg">
+    <TabItem label="Windows">
+        :::note
+        You must have Python installed first!
+        :::
+        ```sh
+        pip install pre-commit
+        pre-commit install
+        ```
+
+    </TabItem>
+    <TabItem label="Debian/Ubuntu">
+
+        ```sh
+        sudo apt install pre-commit
+        pre-commit install
+        ```
+
+    </TabItem>
+    <TabItem label="ArchLinux">
+
+        ```sh
+        sudo pacman -S  pre-commit
+        pre-commit install
+        ```
+
+    </TabItem>
+    <TabItem label="Fedora">
+
+        ```sh
+        dnf install pre-commit
+        pre-commit install
+        ```
+
+    </TabItem>
+
+</Tabs>
+
+
+You can also run the hook manually with ``pre-commit run``.
+
+:::note
+    Previously, we supplied a hook in the folder ``misc/hooks``. If you copied the
+    script manually, these hooks should still work, but symlinks will be broken.
+    If you are using the new system, run ``rm .git/hooks/*`` to remove the old hooks
+    that are no longer needed.
+:::
+
+
+
+
+## Pre-commit hook
+
+For ease of use, we provide hooks for Git with the `pre-commit <https://pre-commit.com/>`__
+Python framework that will run ``ruff`` automatically on all your commits with the
+correct version of ``ruff``.
+To set up:
+
+```
+  pip install pre-commit
+  pre-commit install
+```
+
+You can also run the hook manually with ``pre-commit run``.
+
+:::note
+
+    Previously, we supplied a hook in the folder ``misc/hooks``. If you copied the
+    script manually, these hooks should still work, but symlinks will be broken.
+    If you are using the new system, run ``rm .git/hooks/*`` to remove the old hooks
+    that are no longer needed.
+:::
+

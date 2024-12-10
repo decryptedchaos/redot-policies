@@ -1,0 +1,43 @@
+---
+title: Redot Development Policies
+description: Get started building your docs site with Starlight & the Ion theme.
+tableOfContents: false
+hero:
+  tagline: Congrats on setting up a new Starlight project!
+  image:
+    file: ../../assets/ion-logo.svg
+  actions:
+    - text: Overview
+      link: /features/
+      icon: right-arrow
+      variant: primary
+    - text: Redot Documentation
+      link: https://docs.redotengine.org
+      icon: external
+---
+
+# Our Mission:
+Redot is more than a fork of the Godot engine. We are a collaborative, open-source community that welcomes developers of all skill levels.
+
+**Our mission is to foster a culture of continuous learning and knowledge-sharing, empowering every member to grow and contribute as we push the boundaries of what an open-source community can achieve.**
+
+***
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## The Highlights
+
+<CardGrid stagger>
+	<Card title="Overview" icon="pencil">
+		The [Overview](/overview) gives a general overview of the purpose of this handbook
+	</Card>
+	<Card title="Team Overview" icon="add-document">
+		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	</Card>
+	<Card title="GIT Handbook" icon="setting">
+		Edit your `sidebar` and other config in `astro.config.mjs`.
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	</Card>
+</CardGrid>
