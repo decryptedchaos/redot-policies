@@ -20,9 +20,9 @@ export default defineConfig({
       label: '[list] Overview',
       link: '/overview/'
     }, {
-      label: '[box] Structure',
+      label: '[book] Library',
       autogenerate: {
-        directory: 'guides'
+        directory: 'library'
       }
     },
     // {

@@ -1,5 +1,5 @@
 ---
-title: Git Handbook
+title: Git
 description: A guide in my new Starlight docs site.
 ---
 
@@ -32,10 +32,8 @@ not introducing trailing whitespace or space-based indentation, you should be
 fine. If you plan to contribute regularly, however, we strongly advise that you
 set up clang-format locally to check and automatically fix all your commits.
 
-
 ## Using clang-format locally
 
 You need to use **clang-format 17** to be compatible with Redot's format. Later versions might
 be suitable, but previous versions may not support all used options, or format
 some things differently, leading to style issues in pull requests. (See [Clang Format](git/clang-format))
-

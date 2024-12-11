@@ -1,5 +1,5 @@
 ---
-title: Team Handbook
+title: Team
 description: A guide in my new Starlight docs site.
 ---
 
@@ -15,4 +15,3 @@ Having a well-defined structure helps ensure:
 This document complements existing workflow guides and communication protocols, providing a foundational understanding of team roles for both current and new members of the development team. As the team scales or adjusts to meet project needs, this overview will evolve to reflect new roles, updated responsibilities, and improved processes, fostering an adaptive and resilient development environment.
 
 > This overview serves as a reference for team members, new developers, and community members to understand the operational framework of the development team.
-
